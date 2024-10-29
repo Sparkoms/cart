@@ -1,4 +1,5 @@
-$mobile: 600px;
+@import "../App/vars";
+
 .cart-header {
     display: grid;
     grid-template-columns: 2fr repeat(3, 3fr) 1fr;
