@@ -1,4 +1,4 @@
-const cart = [
+const items = [
     {
         id: 1,
         img: 'macbook.jpg',
@@ -17,10 +17,12 @@ const cart = [
     },
     {
         id: 3,
-        img: 'macbook.jpg',
-        title: 'Apple MacBook Air 13',
+        img: 'mac-pro.jpg',
+        title: 'Mac Pro',
         count: 1,
-        price: 110000,
-        priceTotal: 110000,
-    }, 
+        price: 190000,
+        priceTotal: 190000,
+    }
 ]
+
+export default items;
